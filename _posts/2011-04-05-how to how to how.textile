@@ -1,6 +1,6 @@
 layout: post
 title: Title of the post is post of the title
-url:machinecharmer.github.com / _posts / 2011-04-05-how to how to how.textile
+url: http://machinecharmer.github.com / _posts / 2011-04-05-how to how to how.textile
 -
 
 {{post.title}}
