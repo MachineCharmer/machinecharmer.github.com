@@ -1,7 +1,0 @@
-layout: post
-title: how to how to how.textile
--
-
-{{post.title}}
-
-This is my first blog post.
