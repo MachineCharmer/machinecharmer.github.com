@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Dirac's bra-ket notation</title>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+	    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+  </head>
+  <body>
+    <h1>Dirac's bra-ket notation</h1>
+    <p>
+      It is very difficult to find notation that is concise, correct and understandable by at least two people.
+      <br />
+      <i>--some great man</i>
+    </p>
+    <b>Example 1:</b> <br />
+    Suppose, <br /><br />
+    
+    $|\Psi\rangle = \Sigma_i \alpha_i |i \rangle$ <br /><br />
+    
+    $|\Phi\rangle = \Sigma_i \beta_i |i \rangle$<br /><br />
+
+    $\langle \Psi | \Phi \rangle = \Sigma_i \alpha_i^{*} \beta_i$    ...(1)<br /><br />
+
+    Now, <br /><br />
+
+    $|\Psi \rangle = \Psi(x)$<br /><br />
+
+    $|\Phi \rangle = \Phi(x)$<br /><br />
+
+    $\langle \Psi | \Phi \rangle = \int \Psi(x)^{*} \Phi(x) dx$      ...(2)<br /><br />
+
+
+    Look at the left sides of equations (1) and (2). <br />
+    That means this notation abstracts away differences <br />
+    between discrete and continuous, finite dimensions and infinite dimensions. <br /><br />
+
+
+    <b>Example 2: </b><br /><br />
+
+
+    <b> Theorem: </b> Orthogonal transformations preserve lengths and angles. <br /><br />
+
+    If $O$ is an orthogonal matrix then $O^T = O^{-1}$.<br /><br />
+
+    $|x\rangle \rightarrow O|x\rangle$<br /><br />
+
+    $|y\rangle \rightarrow O|y\rangle$<br /><br />
+
+    $\langle x|y \rangle \rightarrow \langle x|O^T O|y\rangle = \langle x|O^{-1} O|y\rangle = \langle x|y \rangle$
+    <br /><br />
+
+    Look up proof of the same theorem on the internet. <br />
+    See how it is given using usual notation and you will bow to Mr. Dirac. <br />
+    I think Linear Algebra should be taught using Dirac's bra-ket notation. <br />
+
+    <br /><br />
+    ref: 
+    <ol>
+      <li>
+	<a href="http://en.wikipedia.org/wiki/Orthogonal_matrix">
+	  http://en.wikipedia.org/wiki/Orthogonal_matrix 
+	</a>
+      </li>
+    </ol>
+
+  </body>
+</html>
+
